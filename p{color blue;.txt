@@ -1,0 +1,38 @@
+p{color: blue;
+  transition-delay: 2s;
+  transition-duration: 4s;
+  transition-property: all;
+  transition-timing-function:ease;
+}
+p:hover {color: red;
+font-size: 30px;}
+#button1{background-color: pink;
+transition-delay: 1s;
+transition-duration: 2s;
+ transition-property: all;
+}
+button:hover {color: green;
+font-size: 30px}
+h1{color: blue;
+  transition: all 2s ease-in 2s;}
+h1:hover {color: red;
+font-size: 30px}
+#smiski1{transform:translate(100px, -20px) scale(1.5, 1.5) rotate(90deg);}
+#smiski2{transform: rotate(10deg);
+transistion-duration:5s;}
+@keyframes headinganimation {0%{color:blue;} 50%{color:yellow;} 100%{color:red;}}
+h3 {animation-name: headinganimation;
+animation-duration:3s;
+animation-delay:2s; animation-iteration-count: infinite; animation-direction: reverse; animation-timing-function: ease-in;}
+@keyframes example 
+{0% {color: pink;
+transform: 
+  rotate(-10deg);} 
+50%{color:purple;
+transform: 
+  rotate(-15deg);}
+100%{color:blue; 
+transform: 
+  rotate(-20deg);}}
+h2:hover{animation:example 3s ease 2s infinite normal;
+}
